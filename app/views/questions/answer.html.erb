@@ -1,12 +1,11 @@
-<h1>Stupid Coaching</h1>
-
-<h2>You:</h2>
-<h3>
-<%=params[:answer]%>
-</h3>
-
-
-<h2>Your Coach:</h2>
-<h3>
-<%=@coach%>
-</h3>
+<div class="container-fluid">
+  <h1>Stupid Coaching</h1>
+    <div>
+      <p><%=params[:answer]%></p>
+      <p class="font-italic">-You</p>
+    </div>
+    <div>
+      <p><%=@coach%></p>
+      <p class="font-italic">-Your Coach</p>
+    </div>
+</div>
